@@ -1,0 +1,22 @@
+{
+  "name": "momentum-app",
+  "version": "1.0.0",
+  "description": "momentum app",
+  "main": "index.js",
+  "scripts": {
+    "output": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chessawey/momentum-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chessawey/momentum-app/issues"
+  },
+  "homepage": "https://github.com/Chessawey/momentum-app#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
