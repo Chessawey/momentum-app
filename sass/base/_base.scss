@@ -4,7 +4,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Mono', monospace;
 }
 
 html {
@@ -12,7 +11,29 @@ html {
 }
 
 body {
-  background: url("../assets/new-bg.jpg") no-repeat fixed center;
+  background: url(../assets/afternoon-bg.jpg) no-repeat fixed center;
   background-size: cover;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15rem;
+
+}
+
+footer {
+  height: 10rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 5rem;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 200;
+  margin-top: 1.3rem;
 }
